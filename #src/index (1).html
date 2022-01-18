@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="description" content="о чем страница">
+   <meta name="keywords" content="Ключевые слова">
+   <meta name="robots" content="none">
+   <!-- Выключает индексацию -->
+
+   <title></title>
+   <link rel="stylesheet" href="css/style.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=IBM+Plex+Sans:wght@100;400;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgba(22, 27, 30);">
+   <div class="wrapper">
+      <header class="header">
+         <div class="d-flex justify-content-between align-items-center">
+            <div class="header__left">
+               <div class="header__logo" style="margin-right: 8px;">logo</div>
+               <nav class="header__nav header-nav dws-menu">
+                  <ul>
+                     <li class="dws-header__text"><i class="fas fa-th fa-th_h"
+                           style="margin-right: 4px; font-size: 18px;"></i>
+                        <i class="fas fa-angle-down fa-angle-down_h" style="margin-right: 12px;"></i>
+                        <ul>
+                           <li>
+                              <div
+                                 class="dws-big__container dws-big__container__vb dws-container d-flex justify-content-between">
+                                 <a href="#" class="dws-mini__container d-flex align-items-center">
+                                    <i class="far fa-credit-card"></i>
+                                    <div class="dws-bur__cripto">
+                                       <span class="dws-bur__cripto_g">Exchange</span> <br> Биржа криптоактивов
+                                    </div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container d-flex align-items-center">
+                                    <i class="far fa-credit-card"></i>
+                                    <div class="dws-bur__cripto">
+                                       <span class="dws-bur__cripto_g">Academy</span> <br>Образование в сфере
+                                       блокчейна и криптовалют
+                                    </div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container d-flex align-items-center">
+                                    <i class="far fa-credit-card"></i>
+                                    <div class="dws-bur__cripto">
+                                       <span class="dws-bur__cripto_g">Брокер</span> <br> Решения для торговых
+                                       терминалов
+                                    </div>
+                                 </a>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="#" class="dws-header__text">Купить криптовалюту<i class="fas fa-angle-down"></i></a>
+
+                        <ul class="">
+                           <div class="dws-header dws-container">
+                              <a href="#" class="dws-header__left">Оплатить</a>
+                              <a href="#" class="dws-right">Сом</a>
+                           </div>
+                           <div class="dws-big__container dws-container">
+                              <a href="#" class="dws-mini__container d-flex align-items-center">
+                                 <i class="far fa-credit-card"></i>
+                                 <div class="dws-bur__cripto">
+                                    <span class="dws-bur__cripto_g">Пополнение с карты</span> <br> Пополнение в СОМ с
+                                    карты
+                                 </div>
+                              </a>
+                              <a href="#" class="dws-mini__container d-flex align-items-center">
+                                 <i class="fab fa-cc-visa"></i>
+                                 <div class="dws-bur__cripto">
+                                    <span class="dws-bur__cripto_g">Кредитная/ дебитовая карта</span> <br> Купить крипто
+                                    с карты
+                                 </div>
+                              </a>
+                              <a href="#" class="dws-mini__container d-flex align-items-center">
+                                 <div class="dws-bur__cripto"><span class="dws-bur__cripto_g">P2P Торговля</span> <br>
+                                    Оплата по карте и еще 100+ способов</div>
+                              </a>
+                              <a href="#" class="dws-mini__container d-flex align-items-center">
+                                 <i class="fas fa-wallet"></i>
+                                 <div class="dws-bur__cripto"> <span class="dws-bur__cripto_g">Фиатный баланс</span>
+                                    <br> Купить криптовалюту с баланса СОМ
+                                 </div>
+                              </a>
+                              <a href="#" class="dws-mini__container d-flex align-items-center">
+                                 <i class="fas fa-coins"></i>
+                                 <div class="dws-bur__cripto"> <span class="dws-bur__cripto_g">Сторонние партнеры</span>
+                                    <br> Simplex, Banxa(SEPA)
+                                 </div>
+                              </a>
+                           </div>
+                        </ul>
+                     </li>
+                     <li><a href="#"><i class="fa fa-"></i>Рынки</a>
+
+                     </li>
+                     <li><a class="dws-header__text" href="#">Торговля<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                           <div class="dws-container">
+                              <div class="dws-big__container">
+                                 <a href="#" class="dws-mini__container">
+                                    <div><span>Пополнение с карты</span> <br> Пополнение в СОМ с карты
+                                    </div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>Кредитная/ дебитовая карта <br> Купить крипто с карты</div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>P2P Торговля <br> Оплата по карте и еще 100+ способов</div>
+                                 </a>
+
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li><a class="dws-header__text" href="#">Деривативы<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                           <div class="dws-container">
+                              <div class="dws-big__container">
+                                 <a href="#" class="dws-mini__container">
+                                    <div><span>Пополнение с карты</span> <br> Пополнение в СОМ с карты
+                                    </div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>Кредитная/ дебитовая карта <br> Купить крипто с карты</div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>P2P Торговля <br> Оплата по карте и еще 100+ способов</div>
+                                 </a>
+
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+
+                     <li><a class="dws-header__text" href="#"><i class="fa fa-"></i>Earn<i
+                              class="fas fa-angle-down"></i></a>
+                        <ul>
+                           <div class="dws-container">
+                              <div class="dws-big__container">
+                                 <a href="#" class="dws-mini__container">
+                                    <div><span>Пополнение с карты</span> <br> Пополнение в СОМ с карты
+                                    </div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>Кредитная/ дебитовая карта <br> Купить крипто с карты</div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>P2P Торговля <br> Оплата по карте и еще 100+ способов</div>
+                                 </a>
+
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li><a class="dws-header__text" href="#">Финансы<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                           <div class="dws-container">
+                              <div class="dws-big__container">
+                                 <a href="#" class="dws-mini__container">
+                                    <div><span>Пополнение с карты</span> <br> Пополнение в СОМ с карты
+                                    </div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>Кредитная/ дебитовая карта <br> Купить крипто с карты</div>
+                                 </a>
+                                 <a href="#" class="dws-mini__container">
+                                    <div>P2P Торговля <br> Оплата по карте и еще 100+ способов</div>
+                                 </a>
+
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li><a href="#"><i class="fa fa-"></i>NFT</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="header__right d-flex align-items-center ">
+               <nav class="dws-menu-right header__nav header-nav">
+                  <ul>
+                     <li><a href="#">Войти</a></li>
+                     <li><a class="registration" href="#">Регистрация</a></li>
+                     <li><a href="#">Приложение</a></li>
+                     <li><a href="#">Языки</a>
+                        <ul>
+                           <div class="dws-container">
+                              <li><a class="dws-mini__container" href="">Русский</a></li>
+                              <li><a class="dws-mini__container" href="">Киргизский</a></li>
+                              <li><a class="dws-mini__container" href="">Английский</a></li>
+                           </div>
+                        </ul>
+                     </li>
+                     <li><a href="#">Валюта</a>
+                        <ul>
+                           <div class="dws-container">
+
+                              <li><a class="dws-mini__container" href="">Сом</a></li>
+                              <li><a class="dws-mini__container" href="">USD</a></li>
+                              <li><a class="dws-mini__container" href="">EUR</a></li>
+
+                           </div>
+                        </ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="d-flex">
+            <div class="col-xl-6 col-xxl-8">
+               <div class="d-flex">
+                  <div class=" main_overlay-one">
+                     <div class="main__cost">
+                        BTC/KGS <i class="fas fa-angle-down"></i>
+                     </div>
+                     <div class="main__txt">
+                        Bitcoin
+                     </div>
+                  </div>
+                  <div class=" main_overlay-two">
+                     <div class="showPrice">00,000.00</div>
+                     <div class="subPrice">C0,000,000.00</div>
+                  </div>
+                  <div class=" main_overlay-three">
+                     <div class="tickerItemLabel">Изменение за 24ч</div>
+                     <div class="tickerPriceText">000.00 +0.00%</div>
+                  </div>
+                  <div class=" main_overlay-four">
+                     <div class="tickerItemLabel">Макс 24ч</div>
+                     <div class="tickerPriceText">00,000.00</div>
+                  </div>
+                  <div class=" main_overlay-five">
+                     <div class="tickerItemLabel">Мин за 24ч</div>
+                     <div class="tickerPriceText">00,000.00</div>
+                  </div>
+                  <div class=" main_overlay-six">
+                     <div class="tickerItemLabel">Объем 24ч(BTC)</div>
+                     <div class="tickerPriceText">00,000.00</div>
+                  </div>
+                  <div class=" main_overlay-seven">
+                     <div class="tickerItemLabel">Объем за 24ч(KGS)</div>
+                     <div class="tickerPriceText">00,000.00</div>
+                  </div>
+               </div>
+               <!-- TradingView Widget BEGIN -->
+
+               <div id="tradingview_e412b"></div>
+               <div class="tradingview-widget-copyright"><a
+                     href="https://ru.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener"
+                     target="_blank"><span class="blue-text"></span></a></div>
+               <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+               <script type="text/javascript">
+                  new TradingView.widget(
+                     {
+                        "autosize": "true",
+                        "symbol": "BINANCE:BTCUSDT",
+                        "interval": "D",
+                        "timezone": "Etc/UTC",
+                        "theme": "dark",
+                        "style": "1",
+                        "locale": "ru",
+                        "toolbar_bg": "#f1f3f6",
+                        "enable_publishing": false,
+                        "save_image": false,
+                        "container_id": "tradingview_e412b"
+                     }
+                  );
+               </script>
+
+               <!-- TradingView Widget END -->
+            </div>
+            <div class="col-xl-3 col-xxl-2">
+               <div class="cup">
+                  <div class="cup__header">
+                     Биржевой стакан
+                  </div>
+                  <div class="d-flex">
+                     <div  class="col-4">
+                        <div class="cup__header-cost-text">Цена(СОМ)</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                        <div class="cup__header-cost">00000.00</div>
+                     </div>
+                     <div class="col-4 ">
+                        <div class="cup__number">Количество(BTC)</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                        <div class="cup__number-cost">00000.00</div>
+                     </div>
+                     <div class="col-4">
+                        <div class="cup__all">Всего</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                        <div class="cup__all-cost">00000.00</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="cub-sub">
+                  <div class="d-flex align-items-center">
+                     <div class="col-4">
+                        <div class="cup__sub-header cup__sub-header__one"> 00,000.00 </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="cup__sub-header cup__sub-header__two"> C0.000.00.00 </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="cup__sub-header cup__sub-header__three"> Больше </div>
+                     </div>
+                  </div>
+                  <div class="cup__sub">
+                  </div>
+                  <div class="d-flex cup__sub-block">
+                     <div class="col-4">
+                        <div class="cup__sub-header__one-cost cup__sub-header__one-cost__1">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                        <div class="cup__sub-header__one-cost">00000.00</div>
+                     </div>
+                     <div class="col-4">
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                        <div class="cup__sub-header__two-cost">00000.00</div>
+                     </div>
+                     <div class="col-4">
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                        <div class="cup__sub-header__three-cost">00000.00</div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+            <div class="col-xl-3 col-xxl-2 spww">
+               <div class="spot">
+                  <div class="tabs" data-tabs>
+
+                     <div class="tabs__listt" data-list>
+                        <button class="spot-btn tabs__button spot-spot active" data-target="tab1">Спот</button>
+                        <button class="spot-btn tabs__button spot-chat " data-target="tab2">Чат</button>
+                     </div>
+                     <div class="tabs__container " data-tab="tab2">чат</div>
+
+
+
+                     <div class="tabs__container" data-tab="tab1">
+                        <div class="tabs" data-tabs>
+                           <div class="tabs__list d-flex" data-list>
+                              <button class="spot-btn tabs__button spot-bue active"
+                                 data-target="nested-tab1">Купить</button>
+                              <button class="spot-btn tabs__button spot-sell "
+                                 data-target="nested-tab2">Продать</button>
+                           </div>
+                           <div class="tabs__container" data-tab="nested-tab1">
+                              <div class="tabs__list" data-list>
+                                 <div class="d-flex justify-content-around">
+                                    <button class="spot-tabs__bue-btn spot-btn tabs__button spot-limit active"
+                                       data-target="nested-tab3">Лимит</button>
+                                    <button class="spot-tabs__bue-btn spot-btn tabs__button spot-market"
+                                       data-target="nested-tab4">Маркет</button>
+                                    <button class="spot-tabs__bue-btn spot-btn tabs__button spot-slimit"
+                                       data-target="nested-tab5">Стоп-лимит</button>
+                                    <button class="spot-tabs__bue-btn spot-btn tabs__button spot-oco"
+                                       data-target="nested-tab6">ОСО</button><br>
+                                 </div>
+                                 <form class="spot-tab___bue active">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 COМ</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Цена</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <!-- <input type="range" min="0" max="100" step="1" value="50"><br> -->
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">СОМ</div>
+                                    </div>
+                                    <label class="container">
+                                       <p style="margin-left: 18px;">Только размещение</p>
+                                       <input type="checkbox" >
+                                       <span class="checkmark"></span>
+                                     </label>
+                                     <label class="container2">
+                                       <p style="margin-left: 28px;">Айсберг</p>
+                                       <input type="checkbox" >
+                                       <span class="checkmark"></span>
+                                     </label>
+                                    <button class="spot-bue__g">Купить BTC</button>
+                                 </form>
+                                 <form class="spot-tab___bue">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 COМ</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input spot-input_d" value="Маркет" readonly
+                                          disabled>
+                                       <div class="spot-input__cost">Цена</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                       <!-- <div class="spot-input__market">Маркет</div> -->
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <!-- <input type="range" min="0" max="100" step="1" value="50"><br> -->
+                                    <button class="spot-bue__g">Купить BTC</button>
+                                 </form>
+                                 <form class="spot-tab___bue">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 COМ</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Стоп</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Лимит</div>
+                                       <div class="spot-input__btc">USDT</div>
+                                    </div>
+                                    <!-- <input type="range" min="0" max="100" step="1" value="50"><br> -->
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">СОМ</div>
+                                    </div>
+                                    <button class="spot-bue__g">Купить BTC</button>
+                                 </form>
+                                 <form class="spot-tab___bue">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 COМ</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Цена</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Стоп</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <!-- <input type="range" min="0" max="100" step="1" value="50"><br> -->
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Лимит</div>
+                                       <div class="spot-input__btc">СОМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">СОМ</div>
+                                    </div>
+                                    <button class="spot-bue__g">Купить BTC</button>
+                                 </form>
+                              </div>
+                           </div>
+                           <div class="tabs__container" data-tab="nested-tab2">
+                              <div class="tabs__list" data-list>
+                                 <div class="d-flex justify-content-around">
+                                    <button class="spot-tabs__sell-btn spot-btn tabsbutton spot-sellimit active"
+                                       data-target="nested-tab7">Лимит</button>
+                                    <button class="spot-tabs__sell-btn spot-btn tabsbutton spot-sellmarket"
+                                       data-target="nested-tab8">Маркет</button>
+                                    <button class="spot-tabs__sell-btn spot-btn tabsbutton spot-sellslimit"
+                                       data-target="nested-tab9">Стоп-лимит</button>
+                                    <button class="spot-tabs__sell-btn spot-btn tabsbutton  spot-selloco"
+                                       data-target="nested-tab10">ОСО</button>
+                                 </div>
+                                 <form class="spot-tab___sell active">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 BTC</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Цена</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <!-- <input type="range" min="0" max="100" step="1" value="50"><br> -->
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">СОМ</div>
+                                    </div>
+                                    <button class="spot-sell__g">Продать BTC</button>
+                                 </form>
+                                 <form class="spot-tab___sell">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 BTC</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Цена</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <button class="spot-sell__g">Продать BTC</button>
+                                 </form>
+                                 <form class="spot-tab___sell">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 BTC</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Стоп</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Лимит</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <button class="spot-sell__g">Продать BTC</button>
+                                 </form>
+                                 <form class="spot-tab___sell">
+                                    <div class="spot-val">Дост. <span class="spot-val_g">0.00000000 BTC</span> </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Цена</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Стоп</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Лимит</div>
+                                       <div class="spot-input__btc">BTC</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Количество</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <div class="spot-input__block">
+                                       <input type="text" class="spot-input">
+                                       <div class="spot-input__cost">Всего</div>
+                                       <div class="spot-input__btc">COМ</div>
+                                    </div>
+                                    <button class="spot-sell__g">Продать BTC</button>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+
+      </main>
+      <section class="end">
+         <div class="d-flex">
+            <div class="col-xl-6 col-xxl-8">
+               <div class="tabs">
+                  <div class="tabs__items">
+                     <div class="tabs__item active">Открытые ордера</div>
+                     <div class="tabs__item">История ордеров</div>
+                     <div class="tabs__item">История сделок</div>
+                     <div class="tabs__item">Средства</div>
+                  </div>
+                  <div class="tabs__body">
+                     <div class="tabs__blocks">
+                        <div class="tabs__block-one tabs__block active">
+                           <div class="tabs__block-one__items d-flex justify-content-between">
+                              <div class="tabs__block-one__item col-1">Дата</div>
+                              <div class="tabs__block-one__item col-1">Пара</div>
+                              <div class="tabs__block-one__item col-1">Тип</div>
+                              <div class="tabs__block-one__item col-1">Сторона</div>
+                              <div class="tabs__block-one__item col-1">Цена</div>
+                              <div class="tabs__block-one__item col-1">Количество</div>
+                              <div class="tabs__block-one__item col-1">Заполнено</div>
+                              <div class="tabs__block-one__item col-1">Всего</div>
+                              <div class="tabs__block-one__item col-2"> Условия активации</div>
+                              <div class="tabs__block-one__item col-2">Отменить все</div>
+                           </div>
+                        </div>
+                        <div class="tabs__block-two tabs__block">
+                           <div class="tabs__block-two__items-sup d-flex align-items-center">
+                              <div class="tabs__block-two__item-sup ">Дни</div>
+                              <div class="tabs__block-two__item-sup">Неделя</div>
+                              <div class="tabs__block-two__item-sup">Месяц</div>
+                              <div class="tabs__block-two__item-sup">Три месяца</div>
+                              <div class="tabs__block-two__btn">Поиск</div>
+                              <div class="tabs__block-two__btn_l">Сброс</div>
+                           </div>
+                           <div class="tabs__block-two__items d-flex justify-content-between">
+                              <div class="tabs__block-two__item col-1">Дата</div>
+                              <div class="tabs__block-two__item col-1">Пара</div>
+                              <div class="tabs__block-two__item col-1">Тип</div>
+                              <div class="tabs__block-two__item col-1">Сторона</div>
+                              <div class="tabs__block-two__item col-1">Средняя цена</div>
+                              <div class="tabs__block-two__item col-1">Цена</div>
+                              <div class="tabs__block-two__item col-1">Заполнение</div>
+                              <div class="tabs__block-two__item col-1">Количество</div>
+                              <div class="tabs__block-two__item col-1">Всего</div>
+                              <div class="tabs__block-two__item col-2"> Условия активации</div>
+
+                           </div>
+                        </div>
+                        <div class="tabs__block-three tabs__block">
+                           <div class="tabs__block-three__items-sup d-flex align-items-center">
+                              <div class="tabs__block-three__item-sup active">Дни</div>
+                              <div class="tabs__block-three__item-sup">Неделя</div>
+                              <div class="tabs__block-three__item-sup">Месяц</div>
+                              <div class="tabs__block-three__item-sup">Три месяца</div>
+                              <div class="tabs__block-three__btn">Поиск</div>
+                              <div class="tabs__block-three__btn_l">Сброс</div>
+                           </div>
+                           <div class="tabs__block-three__items d-flex justify-content-between">
+                              <div class="tabs__block-three__item">Дата</div>
+                              <div class="tabs__block-three__item">Пара</div>
+                              <div class="tabs__block-three__item">Сторона</div>
+                              <div class="tabs__block-three__item">Цена</div>
+                              <div class="tabs__block-three__item">Исполнен</div>
+                              <div class="tabs__block-three__item">Комиссия</div>
+                              <div class="tabs__block-three__item">Сумма сделки</div>
+                           </div>
+                        </div>
+                        <div class="tabs__block-four tabs__block ">
+                           <div class="tabs__block-four__items d-flex">
+                              <div class="tabs__block-four__item col-2">Криптовалютата</div>
+                              <div class="tabs__block-four__item col-2">Общий баланс</div>
+                              <div class="tabs__block-four__item col-2">Доступный баланс</div>
+                              <div class="tabs__block-four__item col-2">В ордере</div>
+                              <div class="tabs__block-four__item col-4">Стоимость в BTC</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-xl-3 col-xxl-2">
+               <div class="deals">
+                  <div class="deals__header">
+                     Сделки
+                  </div>
+                  <div class="d-flex">
+                     <div class="col-4">
+                        <div class="deals-header__one">Цена(СОМ)</div>
+                     </div>
+                     <div class="col-4">
+                        <div class="deals-header__two">Количество(BTC)</div>
+                     </div>
+                     <div class="col-4">
+                        <div class="deals-header__three">Время</div>
+                     </div>
+                  </div>
+                  <div class="d-flex deals__block">
+                     <div class="col-4">
+
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+                        <div class="deals__one-cost">00000.00</div>
+
+                     </div>
+                     <div class="col-4">
+
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+                        <div class="deals__two-cost">00000.00</div>
+
+                     </div>
+                     <div class="col-4">
+
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                        <div class="deals__three-cost">00:00:00</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-xl-3 col-xxl-2 spww">
+               <div class="assets">
+                  <div class="assets-header d-flex justify-content-between">
+                     <div class="assets-header__left">Активы</div>
+                     <div class="assets-header__right">Купить за <span class="assets-header__right_g">сом</span> </div>
+                  </div>
+                  <div class="assets-btns d-flex justify-content-around">
+                     <button class="assets-btn">Пополнить</button>
+                     <button class="assets-btn">Перевод</button>
+                     <button class="assets-btn">Вывести</button>
+                  </div>
+                  <div class="assets-descr d-flex justify-content-between">
+                     <div class="assets-descr__block">
+                        <div class="assets-descr__text"><span class="assets-descr__text_b">BTC</span> Доступно: </div>
+                        <div class="assets-descr__text"><span class="assets-descr__text_b">СОМ</span> Доступно:</div>
+                     </div>
+                     <div class="assets-descr__block">
+                        <div class="assets-descr__text-number">0.00000000</div>
+                        <div class="assets-descr__text-number">0.00000000</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+   </div>
+   </section>
+   </div>
+
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+<!-- Babel  надооо-->
